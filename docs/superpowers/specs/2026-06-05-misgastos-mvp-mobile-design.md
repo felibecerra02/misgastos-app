@@ -15,13 +15,7 @@ Password recovery, AI features, budgets, saving goals, banking integrations, cus
 
 ## 2. Core Experience
 
-The main navigation is:
-
-- Inicio
-- Historial
-- +
-- Recurrentes
-- Perfil
+The main navigation is: Inicio | Historial | + | Recurrentes | Perfil.
 
 The Home V1 direction is "Inicio balanceado". It makes projected balance the main signal, keeps quick actions visible, and shows monthly financial context without overloading the first screen.
 
@@ -126,8 +120,8 @@ Categories are fixed in V1:
 Payment method is optional and uses a fixed list:
 
 - Efectivo
-- Debito
-- Credito
+- Débito
+- Crédito
 - Transferencia
 - Mercado Pago
 - Otro
@@ -388,4 +382,3 @@ Important edge cases:
 - incomes can omit category
 - OCR can return partial results
 - backend errors do not leak internals
-
